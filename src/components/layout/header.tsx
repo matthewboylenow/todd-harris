@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState, useEffect } from 'react';
 import { COMPANY, NAV_ITEMS } from '@/lib/constants';
 import { MobileNav } from './mobile-nav';
@@ -23,8 +24,15 @@ export function Header() {
       }`}
     >
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6">
-        <Link href="/" className="text-white font-serif text-xl md:text-2xl hover:text-copper transition-colors">
-          Todd Harris Company
+        <Link href="/" className="flex items-center gap-3 hover:opacity-90 transition-opacity">
+          <Image
+            src="/todd-harris-logo.png"
+            alt="Todd Harris Company"
+            width={160}
+            height={48}
+            className="h-10 md:h-12 w-auto"
+            priority
+          />
         </Link>
 
         {/* Desktop Nav */}

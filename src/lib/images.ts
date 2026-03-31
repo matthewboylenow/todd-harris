@@ -6,11 +6,11 @@ export const IMAGES = {
   // Homepage hero - residential pool with East Coast feel, lush green surroundings
   hero: 'https://images.unsplash.com/photo-1576610616656-d3aa5d1f4534?w=1920&q=80&auto=format',
 
-  // Service cards
-  aquatic: 'https://images.unsplash.com/photo-1575429198097-0414ec08e8cd?w=800&q=80&auto=format',
-  chemical: 'https://images.unsplash.com/photo-1560185007-cde436f6a4d0?w=800&q=80&auto=format',
-  construction: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80&auto=format',
-  saunaSteam: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&q=80&auto=format',
+  // Service cards - on-brand photography
+  aquatic: '/images/residential.jpg',
+  chemical: '/images/chemicals.jpg',
+  construction: '/images/construction.jpg',
+  saunaSteam: '/images/sauna.jpg',
 
   // Commercial section - larger commercial/hotel style pool
   commercial: 'https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=1200&q=80&auto=format',

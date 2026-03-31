@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { COMPANY } from '@/lib/constants';
 import { Phone, Mail, MapPin } from 'lucide-react';
 
@@ -29,7 +30,15 @@ export function Footer() {
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
           {/* Company Info */}
           <div>
-            <h3 className="text-white text-lg mb-4">Todd Harris Company</h3>
+            <Link href="/" className="inline-block mb-4">
+              <Image
+                src="/todd-harris-logo.png"
+                alt="Todd Harris Company"
+                width={140}
+                height={42}
+                className="h-10 w-auto"
+              />
+            </Link>
             <p className="text-sm leading-relaxed text-concrete/80 mb-4">
               Pool service, construction, chemicals, and supplies. Family-operated in Edison, NJ since 1975.
             </p>

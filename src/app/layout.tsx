@@ -32,6 +32,10 @@ export const metadata: Metadata = {
   },
   description: 'Pool service, construction, chemicals, and supplies in Edison, NJ. Family-operated since 1975. Four divisions, 40+ employees. Call 732-287-4443.',
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://toddharris.com'),
+  icons: {
+    icon: '/th-favicon.png',
+    apple: '/th-favicon.png',
+  },
   openGraph: {
     title: 'Todd Harris Company | Pool Services Since 1975',
     description: 'Service, construction, chemicals, and supplies in Edison, NJ. Family-operated since 1975.',
