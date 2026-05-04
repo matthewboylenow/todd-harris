@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# internal docs / brand briefs (kept local, not committed)
+*.md
+
+# client-supplied raw materials
+uploads/
