@@ -4,8 +4,8 @@ import { ScrollReveal } from '@/components/shared/scroll-reveal';
 
 const testimonials = [
   {
-    quote: 'Time and time again they provide a concise method to obtain the results you are looking for. I have used their services for several years and have referred my friends and family to them.',
-    attribution: 'Residential customer',
+    quote: 'Time and time again they provide a concise method to obtain the results you are looking for. I have used their services for several years and have referred other property managers to them.',
+    attribution: 'Commercial client',
   },
   {
     quote: 'His guidance and teaching have helped us understand what it takes to connect with people. Not only has his work directly benefitted us, but he goes above and beyond.',
@@ -23,7 +23,7 @@ export function Testimonials() {
       <div className="mx-auto max-w-6xl">
         <ScrollReveal>
           <p className="text-sm uppercase tracking-widest text-copper mb-2">Testimonials</p>
-          <h2 className="text-white">What people say</h2>
+          <h2 className="text-white">What our clients say</h2>
         </ScrollReveal>
 
         <div className="mt-12 grid gap-8 md:grid-cols-3">

@@ -14,13 +14,13 @@ const reasons = [
     number: '02',
     icon: Wrench,
     title: 'One company, everything you need',
-    description: "We build pools, service them, deliver chemicals by the truckload, and stock the supplies to keep them running. You don't need four vendors. You need one.",
+    description: "We renovate pools, service them, deliver chemicals by the truckload, and stock the supplies to keep them running. You don't need four vendors. You need one.",
   },
   {
     number: '03',
     icon: Building2,
     title: 'Built for commercial work',
-    description: 'Hotels, gyms, apartment complexes, municipal facilities. Our crew and fleet are sized for institutional projects. Licensed, insured, and equipped for the job.',
+    description: 'Hotels, gyms, apartment complexes, municipal facilities, schools, and community pools. Our crew and fleet are sized for institutional projects. Licensed, insured, and equipped for the job.',
   },
 ];
 
@@ -30,7 +30,7 @@ export function WhyToddHarris() {
       <div className="mx-auto max-w-6xl">
         <ScrollReveal>
           <p className="text-sm uppercase tracking-widest text-copper mb-2">Why us</p>
-          <h2>Why our clients stay with us</h2>
+          <h2>Why commercial clients stay with us</h2>
         </ScrollReveal>
 
         <div className="mt-12 grid gap-8 md:grid-cols-3">

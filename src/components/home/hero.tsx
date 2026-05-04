@@ -12,7 +12,7 @@ export function Hero() {
       {/* Background image */}
       <Image
         src={IMAGES.hero}
-        alt="Residential pool in a New Jersey backyard"
+        alt="Commercial rooftop pool facility"
         fill
         priority
         className="object-cover"
@@ -29,7 +29,7 @@ export function Hero() {
           transition={{ duration: 0.5 }}
           className="mb-4 font-mono text-sm tracking-widest text-copper"
         >
-          Edison, New Jersey &middot; Since 1975
+          Serving New Jersey and New York City &middot; Since 1975
         </motion.p>
 
         <motion.div
@@ -45,7 +45,7 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="max-w-3xl text-white"
         >
-          Your pool company for 50 years.
+          Commercial pool experts for 50 years.
         </motion.h1>
 
         <motion.p
@@ -54,7 +54,7 @@ export function Hero() {
           transition={{ duration: 0.5, delay: 0.4 }}
           className="mt-6 max-w-xl text-lg text-concrete/90"
         >
-          Service, construction, chemicals, and supplies. Four divisions under one roof, right here in Edison. If your pool needs something, we&apos;ve probably done it before.
+          Renovation, service, chemicals, and supplies for commercial aquatic facilities. Four divisions under one roof, headquartered in Edison, NJ.
         </motion.p>
 
         <motion.div

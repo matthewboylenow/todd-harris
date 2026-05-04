@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Pool Tips & News | Todd Harris Company Blog',
-  description: 'Pool tips, news, and updates from Todd Harris Company in Edison, NJ.',
+  title: 'Commercial Pool Tips & News | Todd Harris Company Blog',
+  description: 'Commercial pool tips, news, and updates from Todd Harris Company in Edison, NJ.',
 };
 
 export default function BlogPage() {

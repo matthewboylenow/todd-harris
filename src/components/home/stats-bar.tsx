@@ -10,7 +10,7 @@ export function StatsBar() {
         <AnimatedCounter target={40} suffix="+" label="Employees" />
         <AnimatedCounter target={4} label="Divisions" />
         <div className="text-center">
-          <span className="block font-mono text-4xl md:text-5xl font-bold text-copper">Tri-State</span>
+          <span className="block font-mono text-4xl md:text-5xl font-bold text-copper">NJ &amp; NYC</span>
           <span className="mt-2 block text-sm uppercase tracking-wider text-gray-medium">Service Area</span>
         </div>
       </div>

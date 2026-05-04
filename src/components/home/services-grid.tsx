@@ -13,32 +13,32 @@ const services = [
     title: 'Aquatic Division',
     href: '/services/aquatic',
     image: IMAGES.aquatic,
-    imageAlt: 'Pool equipment and filtration system',
-    description: 'Filters, pumps, heaters, automation systems, leak detection, openings and closings, safety covers. If it keeps your pool running, our technicians work on it.',
-    tags: ['Equipment Repair', 'Leak Detection', 'Automation Systems', 'Pool Consulting'],
+    imageAlt: 'Commercial indoor pool facility',
+    description: 'Filters, pumps, heaters, automation systems, leak detection, openings and closings, safety covers, waterproofing, and CPO servicing for commercial pools and spas.',
+    tags: ['Equipment Repair', 'Leak Detection', 'Waterproofing', 'CPO Services'],
   },
   {
     title: 'Chemical Division',
     href: '/services/chemical',
     image: IMAGES.chemical,
     imageAlt: 'Clear pool water with chemical balance',
-    description: 'Liquid chlorine by carboy or tank truck. Granular chlorines, bromine tablets, salt generators, pH products, clarifiers, and ice melt. We deliver to commercial facilities on a regular schedule.',
+    description: 'Liquid chlorine by carboy or tank truck. Granular chlorines, bromine tablets, salt generators, pH products, clarifiers, and ice melt. Scheduled delivery for commercial facilities.',
     tags: ['Tank Truck Delivery', 'Water Analyzers', 'Chlorine Generators', 'Ice Melt'],
   },
   {
-    title: 'Construction Division',
-    href: '/services/construction',
+    title: 'Renovation Division',
+    href: '/services/renovation',
     image: IMAGES.construction,
-    imageAlt: 'Pool construction and renovation',
-    description: 'New builds and major renovations for commercial, institutional, and residential properties. Structural repairs, hydroblasting, coping, tile, plaster, fiberglass, and deck resurfacing.',
-    tags: ['New Construction', 'Major Renovations', 'Structural Repairs', 'Deck Resurfacing'],
+    imageAlt: 'Commercial pool renovation',
+    description: 'Major renovations for commercial and institutional aquatic facilities. Structural repairs, hydroblasting, coping, tile, plaster, fiberglass, steel pools, and deck resurfacing.',
+    tags: ['Major Renovations', 'Structural Repairs', 'Steel Pools', 'Deck Resurfacing'],
   },
   {
     title: 'Sauna & Steam',
     href: '/services/sauna-steam',
     image: IMAGES.saunaSteam,
-    imageAlt: 'Wooden sauna interior',
-    description: 'Custom-built and panel-built rooms, outdoor saunas, infrared heat therapy. Design, construction, service, and accessories for residential and commercial installations.',
+    imageAlt: 'Commercial sauna interior',
+    description: 'Custom-built and panel-built rooms, infrared heat therapy, and steam rooms. Design, installation, service, and accessories for commercial facilities.',
     tags: ['Custom Rooms', 'Infrared Therapy', 'Commercial Install', 'Service & Repair'],
   },
 ];
@@ -49,7 +49,7 @@ export function ServicesGrid() {
       <div className="mx-auto max-w-6xl">
         <ScrollReveal>
           <p className="text-sm uppercase tracking-widest text-copper mb-2">What we do</p>
-          <h2>Most pool companies handle one thing. We cover the full lifecycle.</h2>
+          <h2>One company for the full lifecycle of your commercial aquatic facility.</h2>
         </ScrollReveal>
 
         <div className="mt-12 grid gap-8 md:grid-cols-2">

@@ -9,8 +9,8 @@ import { Phone } from 'lucide-react';
 import { IMAGES } from '@/lib/images';
 
 export const metadata: Metadata = {
-  title: 'Pool Service in Edison, NJ | Todd Harris Company | Since 1975',
-  description: 'Pool service, construction, chemicals, and supplies in Edison, NJ. Located at 2 Sutton Place. Family-operated since 1975. Call 732-287-4443.',
+  title: 'Commercial Pool Service in Edison, NJ | Todd Harris Company | Since 1975',
+  description: 'Commercial pool renovation, service, chemicals, and supplies in Edison, NJ. Located at 2 Sutton Place. Family-operated since 1975. Call 732-287-4443.',
 };
 
 export default function EdisonNJPage() {
@@ -18,22 +18,22 @@ export default function EdisonNJPage() {
     <>
       <PageHero
         eyebrow="Service Areas / Edison, NJ"
-        title="Pool services in Edison, NJ."
+        title="Commercial pool services in Edison, NJ."
         subtitle="Our headquarters and our team are right here in Edison. We&apos;ve been part of this community for 50 years."
         image={IMAGES.edison}
-        imageAlt="Residential pool in Edison, New Jersey"
+        imageAlt="Commercial pool facility"
       />
 
       <SectionWrapper>
         <div className="max-w-3xl">
           <CopperLine className="mb-6" />
-          <h2>Your local pool company</h2>
+          <h2>Your local commercial pool company</h2>
           <div className="mt-6 space-y-4 text-gray-medium">
             <p>
               Todd Harris Company has been based in Edison, New Jersey since 1975. Our headquarters at {COMPANY.address.street} is where our fleet launches every morning and where our team plans every job. Edison isn&apos;t just a service area for us. It&apos;s home.
             </p>
             <p>
-              When you call us from Edison, you&apos;re calling the company down the road. Our technicians know the neighborhoods, the soil conditions, the local codes, and the quickest routes to your backyard.
+              We serve commercial and institutional aquatic facilities throughout New Jersey and the five boroughs of New York City. Our technicians know the local codes, the regulations, and the fastest routes to your facility.
             </p>
           </div>
         </div>
@@ -41,39 +41,27 @@ export default function EdisonNJPage() {
 
       <SectionWrapper className="bg-concrete">
         <CopperLine className="mb-6" />
-        <h2>What we offer Edison pool owners</h2>
+        <h2>What we offer commercial clients</h2>
         <div className="mt-10 space-y-6 max-w-3xl">
           <div>
             <h3 className="text-lg">Service and repair</h3>
-            <p className="mt-1 text-gray-medium">Filters, pumps, heaters, automation systems, leak detection, safety covers, and full equipment overhauls. If it&apos;s part of your pool, we service it.</p>
+            <p className="mt-1 text-gray-medium">Filters, pumps, heaters, automation systems, leak detection, safety covers, waterproofing, and full equipment overhauls for commercial facilities.</p>
           </div>
           <div>
-            <h3 className="text-lg">Seasonal openings and closings</h3>
-            <p className="mt-1 text-gray-medium">We handle the full seasonal transition so your pool is ready when you are and properly winterized when the season ends.</p>
+            <h3 className="text-lg">CPO servicing</h3>
+            <p className="mt-1 text-gray-medium">Our certified pool operators provide weekly or monthly preventative maintenance for commercial pools and spas.</p>
           </div>
           <div>
             <h3 className="text-lg">Chemical supply and delivery</h3>
-            <p className="mt-1 text-gray-medium">Residential and commercial chemical supply. Retail chemicals are available through our sister operation, the <a href={COMPANY.storeWebsite} target="_blank" rel="noopener noreferrer" className="text-copper hover:text-copper-dark">Spa &amp; Pool Store</a>.</p>
+            <p className="mt-1 text-gray-medium">Commercial chemical supply by tank truck and carboy. Retail chemicals are available through our sister operation, the <a href={COMPANY.storeWebsite} target="_blank" rel="noopener noreferrer" className="text-copper hover:text-copper-dark">Spa &amp; Pool Store</a>.</p>
           </div>
           <div>
-            <h3 className="text-lg">Construction and renovation</h3>
-            <p className="mt-1 text-gray-medium">New pool construction, structural repairs, resurfacing, coping, tile, plaster, and deck work. Residential and commercial.</p>
+            <h3 className="text-lg">Renovation</h3>
+            <p className="mt-1 text-gray-medium">Structural repairs, resurfacing, coping, tile, plaster, steel pool renovation, and deck work for commercial and institutional facilities.</p>
           </div>
           <div>
-            <h3 className="text-lg">Spas, saunas, and steam rooms</h3>
-            <p className="mt-1 text-gray-medium">Custom design, installation, and service for saunas and steam rooms. Panel-built, custom-built, outdoor, and infrared options.</p>
-          </div>
-        </div>
-      </SectionWrapper>
-
-      <SectionWrapper>
-        <div className="max-w-3xl">
-          <CopperLine className="mb-6" />
-          <h2>About Edison</h2>
-          <div className="mt-6 space-y-4 text-gray-medium">
-            <p>
-              Edison is home to more than 100,000 residents, making it one of the largest townships in New Jersey. The community includes neighborhoods like North Edison, Menlo Park, Oak Tree, and the area surrounding Raritan Center. With a mix of established residential neighborhoods and newer developments, there are pools all over this township, and we&apos;ve worked on a lot of them.
-            </p>
+            <h3 className="text-lg">Saunas and steam rooms</h3>
+            <p className="mt-1 text-gray-medium">Custom design, installation, and service for saunas and steam rooms in commercial facilities. Panel-built, custom-built, and infrared options.</p>
           </div>
         </div>
       </SectionWrapper>
@@ -81,9 +69,9 @@ export default function EdisonNJPage() {
       <SectionWrapper className="bg-navy">
         <div className="max-w-3xl">
           <CopperLine className="mb-6" />
-          <h2 className="text-white">Talk to your neighbors&apos; pool company</h2>
+          <h2 className="text-white">Get in touch</h2>
           <p className="mt-4 text-concrete/80">
-            We&apos;re right here in Edison. If you need pool service, chemicals, construction, or just want an honest evaluation, give us a call.
+            We&apos;re right here in Edison. If you need commercial pool service, chemicals, renovation, or just want an honest evaluation, give us a call.
           </p>
           <div className="mt-8 flex flex-col gap-4 sm:flex-row">
             <Button asChild size="lg" className="bg-copper hover:bg-copper-dark text-white font-sans">

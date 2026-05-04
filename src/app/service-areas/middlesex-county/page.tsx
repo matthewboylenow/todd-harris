@@ -9,8 +9,8 @@ import { Phone } from 'lucide-react';
 import { IMAGES } from '@/lib/images';
 
 export const metadata: Metadata = {
-  title: 'Pool Service Middlesex County NJ | Todd Harris Company',
-  description: 'Pool service, construction, and chemical supply throughout Middlesex County, NJ. Based in Edison. Family-operated since 1975. Call 732-287-4443.',
+  title: 'Commercial Pool Service Middlesex County NJ | Todd Harris Company',
+  description: 'Commercial pool renovation, service, and chemical supply throughout Middlesex County, NJ. Based in Edison. Family-operated since 1975. Call 732-287-4443.',
 };
 
 const communities = [
@@ -38,10 +38,10 @@ export default function MiddlesexCountyPage() {
     <>
       <PageHero
         eyebrow="Service Areas / Middlesex County"
-        title="Pool services across Middlesex County."
-        subtitle="Based in Edison, we service pools throughout Middlesex County. From Woodbridge to South Brunswick, our fleet covers the county."
+        title="Commercial pool services across Middlesex County."
+        subtitle="Based in Edison, we service commercial aquatic facilities throughout Middlesex County and beyond."
         image={IMAGES.middlesex}
-        imageAlt="Pool serviced in Middlesex County"
+        imageAlt="Commercial pool facility"
       />
 
       <SectionWrapper>
@@ -50,7 +50,7 @@ export default function MiddlesexCountyPage() {
           <h2>Overview</h2>
           <div className="mt-6 space-y-4 text-gray-medium">
             <p>
-              Todd Harris Company has been headquartered in Middlesex County since 1975. Our Edison location puts us in the center of the county, which means shorter drive times and faster response for every community we serve. Over 50 years, we&apos;ve built, serviced, and supplied pools in nearly every town in the county.
+              Todd Harris Company has been headquartered in Middlesex County since 1975. Our Edison location puts us in the center of the county, which means shorter drive times and faster response. We serve commercial and institutional aquatic facilities throughout New Jersey and the five boroughs of New York City.
             </p>
           </div>
         </div>
@@ -71,20 +71,20 @@ export default function MiddlesexCountyPage() {
         <h2>What we offer</h2>
         <div className="mt-10 space-y-6 max-w-3xl">
           <div>
-            <h3 className="text-lg">Residential pool service</h3>
-            <p className="mt-1 text-gray-medium">Equipment repair, seasonal openings and closings, leak detection, safety covers, automation, and full system overhauls for homeowners across Middlesex County.</p>
+            <h3 className="text-lg">Commercial pool service</h3>
+            <p className="mt-1 text-gray-medium">Equipment repair, seasonal openings and closings, leak detection, safety covers, automation, waterproofing, CPO servicing, and full system overhauls for commercial facilities across Middlesex County.</p>
           </div>
           <div>
-            <h3 className="text-lg">Commercial and institutional</h3>
-            <p className="mt-1 text-gray-medium">Hotels, apartment complexes, municipal recreation centers, gyms, and swim clubs. We handle construction, renovation, ongoing service, and chemical supply at the commercial scale.</p>
+            <h3 className="text-lg">Institutional facilities</h3>
+            <p className="mt-1 text-gray-medium">Hotels, apartment complexes, municipal recreation centers, gyms, schools, universities, rehabilitation facilities, and community pools. We handle renovation, ongoing service, and chemical supply at the commercial scale.</p>
           </div>
           <div>
             <h3 className="text-lg">Chemical supply and delivery</h3>
             <p className="mt-1 text-gray-medium">Tank truck and carboy delivery for commercial clients. Retail chemicals available through our sister operation, the <a href={COMPANY.storeWebsite} target="_blank" rel="noopener noreferrer" className="text-copper hover:text-copper-dark">Spa &amp; Pool Store</a>.</p>
           </div>
           <div>
-            <h3 className="text-lg">Construction and renovation</h3>
-            <p className="mt-1 text-gray-medium">New pool builds, structural repairs, resurfacing, hydroblasting, coping, tile, plaster, fiberglass, and deck work. Residential and commercial projects throughout the county.</p>
+            <h3 className="text-lg">Renovation</h3>
+            <p className="mt-1 text-gray-medium">Structural repairs, resurfacing, hydroblasting, coping, tile, plaster, fiberglass, steel pools, and deck work for commercial projects throughout the county.</p>
           </div>
         </div>
       </SectionWrapper>

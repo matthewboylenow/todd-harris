@@ -7,7 +7,7 @@ export function CtaStrip() {
   return (
     <section className="bg-copper py-16 md:py-20 px-6">
       <div className="mx-auto max-w-3xl text-center">
-        <h2 className="text-white">Need something for your pool?</h2>
+        <h2 className="text-white">Ready to discuss your facility?</h2>
         <p className="mt-4 text-white/90 text-lg">
           Call us or send us a message. Whatever it is, we can help.
         </p>

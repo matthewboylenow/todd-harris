@@ -6,7 +6,7 @@ import { Phone, Mail, MapPin } from 'lucide-react';
 const serviceLinks = [
   { label: 'Aquatic Division', href: '/services/aquatic' },
   { label: 'Chemical Division', href: '/services/chemical' },
-  { label: 'Construction', href: '/services/construction' },
+  { label: 'Renovation', href: '/services/renovation' },
   { label: 'Sauna & Steam', href: '/services/sauna-steam' },
   { label: 'Pool Lifts', href: '/services/pool-lifts' },
 ];
@@ -14,13 +14,8 @@ const serviceLinks = [
 const companyLinks = [
   { label: 'About', href: '/about' },
   { label: 'Commercial', href: '/commercial' },
-  { label: 'Resources', href: '/resources' },
+  { label: 'Preventative Maintenance', href: '/preventative-maintenance' },
   { label: 'Contact', href: '/contact' },
-];
-
-const serviceAreaLinks = [
-  { label: 'Edison, NJ', href: '/service-areas/edison-nj' },
-  { label: 'Middlesex County', href: '/service-areas/middlesex-county' },
 ];
 
 export function Footer() {
@@ -40,7 +35,7 @@ export function Footer() {
               />
             </Link>
             <p className="text-sm leading-relaxed text-concrete/80 mb-4">
-              Pool service, construction, chemicals, and supplies. Family-operated in Edison, NJ since 1975.
+              Commercial pool renovation, service, chemicals, and supplies. Family-operated in Edison, NJ since 1975.
             </p>
             <div className="flex flex-col gap-3 text-sm">
               <a href={COMPANY.phone.mainTel} className="flex items-center gap-2 hover:text-copper transition-colors">
@@ -90,13 +85,8 @@ export function Footer() {
           <div>
             <h4 className="text-white text-sm font-sans font-semibold uppercase tracking-wider mb-4">Service Areas</h4>
             <ul className="flex flex-col gap-2">
-              {serviceAreaLinks.map((link) => (
-                <li key={link.href}>
-                  <Link href={link.href} className="text-sm text-concrete/80 hover:text-copper transition-colors">
-                    {link.label}
-                  </Link>
-                </li>
-              ))}
+              <li className="text-sm text-concrete/80">New Jersey (statewide)</li>
+              <li className="text-sm text-concrete/80">New York City &ndash; the five boroughs</li>
             </ul>
             <p className="mt-4 text-xs text-concrete/60">
               For retail chemicals and supplies, visit the{' '}

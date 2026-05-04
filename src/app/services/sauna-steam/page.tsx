@@ -9,19 +9,20 @@ import { Phone } from 'lucide-react';
 import { IMAGES } from '@/lib/images';
 
 export const metadata: Metadata = {
-  title: 'Sauna & Steam Room Installation NJ',
-  description: 'Custom sauna and steam room design, construction, and service in NJ. Residential and commercial. Infrared, outdoor, panel-built, and custom-built rooms. Call 732-287-4443.',
+  title: 'Commercial Sauna & Steam Room Installation NJ & NYC',
+  description: 'Commercial sauna and steam room design, installation, and service in NJ and NYC. Infrared, panel-built, and custom-built rooms for hotels, gyms, and wellness facilities. Call 732-287-4443.',
 };
 
 const offerings = [
-  { title: 'Custom-built rooms', description: 'Designed and built to your specifications. Custom sizing, wood selection, bench layout, heater placement, and ventilation. Residential or commercial.' },
+  { title: 'Custom-built rooms', description: 'Designed and built to your specifications. Custom sizing, wood selection, bench layout, heater placement, and ventilation for commercial facilities.' },
   { title: 'Panel-built rooms', description: 'Pre-manufactured sauna panels assembled on site. A faster, more cost-effective option that still delivers a quality result. Multiple sizes and configurations available.' },
-  { title: 'Outdoor saunas', description: 'Freestanding outdoor sauna structures for residential properties. Various styles from traditional barrel saunas to custom outdoor rooms.' },
   { title: 'Infrared heat therapy rooms', description: 'Infrared saunas use radiant heat instead of traditional convection. Lower operating temperatures, different therapeutic benefits. We install and service infrared units and rooms.' },
-  { title: 'Steam rooms', description: 'Tile or acrylic steam rooms with commercial or residential steam generators. We handle waterproofing, ventilation, generator installation, and controls.' },
+  { title: 'Steam rooms', description: 'Tile or acrylic steam rooms with commercial steam generators. We handle waterproofing, ventilation, generator installation, and controls.' },
   { title: 'Accessories', description: 'Heaters, controls, lighting, benches, backrests, headrests, thermometers, and buckets. We stock accessories and replacement parts for existing installations.' },
   { title: 'Service and repair', description: 'Heater element replacements, control board repairs, steam generator maintenance, and wood refinishing. If your sauna or steam room isn\u2019t working right, call us.' },
 ];
+
+{/* Future item: Alarm systems for saunas and steam rooms (required by DOH). Waiting for exact verbiage from Ben. */}
 
 export default function SaunaSteamPage() {
   return (
@@ -29,9 +30,9 @@ export default function SaunaSteamPage() {
       <PageHero
         eyebrow="Services / Sauna & Steam Room Division"
         title="Saunas and steam rooms, built and serviced."
-        subtitle="Custom-built, panel-built, outdoor, and infrared. Design, construction, repair, and accessories for homes and commercial facilities."
+        subtitle="Custom-built, panel-built, and infrared. Design, installation, repair, and accessories for commercial facilities."
         image={IMAGES.serviceSauna}
-        imageAlt="Wooden sauna interior"
+        imageAlt="Commercial sauna interior"
       />
 
       <SectionWrapper>
@@ -43,7 +44,7 @@ export default function SaunaSteamPage() {
               Most pool companies don&apos;t offer sauna and steam room work. We do, and we&apos;ve been doing it for decades.
             </p>
             <p>
-              Whether you&apos;re adding a sauna to your home, building a steam room for a gym or spa, or servicing an existing installation, our team handles the full scope. Design, construction, equipment, and ongoing maintenance.
+              Whether you&apos;re building a steam room for a gym, hotel, or wellness center, or servicing an existing installation at a commercial facility, our team handles the full scope. Design, installation, equipment, and ongoing maintenance.
             </p>
           </div>
         </div>
@@ -65,9 +66,9 @@ export default function SaunaSteamPage() {
       <SectionWrapper>
         <div className="max-w-3xl">
           <CopperLine className="mb-6" />
-          <h2>Residential and commercial</h2>
+          <h2>Commercial facilities</h2>
           <p className="mt-4 text-gray-medium">
-            We build for homeowners adding a sauna to their basement or backyard, and for commercial clients outfitting gyms, spas, hotels, and wellness centers. The design and engineering requirements differ, and we have experience with both.
+            We build and service saunas and steam rooms for hotels, gyms, spas, wellness centers, and other commercial facilities. The design and engineering requirements for commercial installations require specialized expertise, and we have decades of experience with large-scale projects.
           </p>
         </div>
       </SectionWrapper>

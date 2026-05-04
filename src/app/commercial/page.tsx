@@ -9,25 +9,26 @@ import { Phone, Building2, Truck, Shield, Clock, Droplets, Wrench } from 'lucide
 import { IMAGES } from '@/lib/images';
 
 export const metadata: Metadata = {
-  title: 'Commercial Pool Services NJ | Hotels, Gyms, Facilities',
-  description: 'Commercial pool construction, renovation, service, and chemical delivery in NJ. Hotels, gyms, apartment complexes, municipal facilities. Licensed and insured. Since 1975.',
+  title: 'Commercial Pool Services NJ & NYC | Hotels, Gyms, Facilities',
+  description: 'Commercial pool renovation, service, and chemical delivery in NJ and NYC. Hotels, gyms, apartment complexes, municipal facilities. Licensed and insured. Since 1975.',
 };
 
 const capabilities = [
-  { icon: Building2, title: 'New pool construction', description: "We've built pools for hotels, apartment complexes, community centers, municipal recreation departments, and private clubs. Our construction team handles projects from design through completion with in-house crews." },
-  { icon: Wrench, title: 'Renovations and structural work', description: 'Aging commercial pools need structural repair, surface refinishing, equipment upgrades, and code compliance updates. We handle full-scale renovation projects including hydroblasting, plaster, coping, tile, deck work, and equipment overhaul.' },
+  { icon: Wrench, title: 'Renovations and structural work', description: 'Aging commercial pools need structural repair, surface refinishing, equipment upgrades, and code compliance updates. We handle full-scale renovation projects including hydroblasting, plaster, coping, tile, deck work, and equipment overhaul. Indoor, rooftop, penthouse, and steel pools.' },
   { icon: Clock, title: 'Ongoing service and maintenance', description: 'We offer service agreements for commercial facilities. Regular maintenance visits, equipment monitoring, seasonal openings and closings, and emergency service when something goes wrong.' },
   { icon: Droplets, title: 'Chemical automation and supply', description: 'Commercial pools require precise chemical management. We install and maintain automated chemical controllers and feeders. We also supply chemicals by tank truck delivery on a recurring schedule.' },
   { icon: Shield, title: 'ADA compliance', description: 'Pool lifts and accessible entry solutions to meet Americans with Disabilities Act requirements. We sell, install, and service ADA-compliant equipment.' },
+  { icon: Building2, title: 'Waterproofing', description: 'Professional waterproofing for commercial pools, spas, saunas, and related structures to protect against leaks and structural deterioration.' },
   { icon: Truck, title: 'Sauna and steam rooms', description: 'Gyms, hotels, and wellness centers that need sauna or steam room installation, renovation, or service.' },
 ];
 
 const advantages = [
-  { title: 'One vendor for everything', description: "Construction, renovation, equipment service, chemical supply, and ADA compliance. You don't need to coordinate five different contractors. We handle the full scope." },
+  { title: 'One vendor for everything', description: "Renovation, equipment service, chemical supply, waterproofing, and ADA compliance. You don't need to coordinate five different contractors. We handle the full scope." },
   { title: 'Licensed and insured', description: "We carry the licensing and insurance that commercial and institutional work requires. We're happy to provide documentation for your procurement team." },
   { title: 'Fleet and crew capacity', description: 'Our crew and fleet are sized for commercial operations. We show up with the people and equipment to get the job done on schedule.' },
   { title: '50 years of experience', description: "We've been doing this longer than most commercial pool companies have existed. That experience shows up in the quality of the work and the efficiency of the service." },
   { title: 'Scheduled chemical delivery', description: "Tank truck and carboy delivery on a schedule that works for your facility. You shouldn't be running out of chlorine because you forgot to reorder." },
+  { title: 'CPO servicing', description: 'Our certified pool operators provide weekly or monthly preventative maintenance, ensuring water quality, equipment reliability, and regulatory compliance.' },
 ];
 
 export default function CommercialPage() {
@@ -36,9 +37,9 @@ export default function CommercialPage() {
       <PageHero
         eyebrow="Commercial & Institutional"
         title="Pool services at the commercial scale."
-        subtitle="Hotels, gyms, apartment complexes, municipal facilities, and community centers. We build, service, and supply commercial aquatic facilities across the tri-state area."
+        subtitle="Hotels, gyms, apartment complexes, municipal facilities, schools, universities, and community pools. We renovate, service, and supply commercial aquatic facilities across New Jersey and the five boroughs of New York City."
         image={IMAGES.commercial}
-        imageAlt="Commercial hotel pool facility"
+        imageAlt="Commercial indoor pool facility"
       />
 
       <SectionWrapper>
@@ -47,10 +48,10 @@ export default function CommercialPage() {
           <h2>Overview</h2>
           <div className="mt-6 space-y-4 text-gray-medium">
             <p>
-              Todd Harris Company has been working with commercial and institutional clients since 1975. While a lot of our neighbors know us from residential service calls, a significant part of our operation is dedicated to large-scale pool work.
+              Todd Harris Company has been working with commercial and institutional clients since 1975. Our fleet, our crew, and our chemical supply infrastructure are built for facility-scale operations.
             </p>
             <p>
-              We&apos;re not a residential pool company that occasionally takes a commercial job. Our fleet, our crew, and our chemical supply infrastructure are built for facility-scale operations.
+              We specialize in high-end in-ground pools and spas, including indoor, rooftop, penthouse, and steel pool installations and renovations for commercial facilities.
             </p>
           </div>
         </div>
@@ -88,7 +89,7 @@ export default function CommercialPage() {
           <CopperLine className="mb-6" />
           <h2>Facility types we serve</h2>
           <p className="mt-4 text-gray-medium">
-            Hotels and resorts. Apartment and condo complexes. Municipal recreation centers. Community pools. Fitness centers and gyms. Country clubs and swim clubs. Schools and universities. Rehabilitation facilities.
+            Hotels. Apartment and condo complexes. Municipal recreation centers. Community pools. Fitness centers and gyms. Country clubs and swim clubs. Schools and universities. Rehabilitation facilities.
           </p>
         </div>
       </SectionWrapper>

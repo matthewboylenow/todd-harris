@@ -1,6 +1,6 @@
 export const COMPANY = {
   name: 'Todd Harris Company',
-  legalName: 'Todd Harris Inc.',
+  legalName: 'Todd Harris Co., Inc.',
   founded: 1975,
   address: {
     street: '2 Sutton Place',
@@ -14,9 +14,11 @@ export const COMPANY = {
     mainFormatted: '(732) 287-4443',
     mainTel: 'tel:+17322874443',
   },
-  email: 'njpools@toddharris.com',
+  email: 'sales@toddharris.com',
   website: 'https://toddharris.com',
   storeWebsite: 'https://njpoolstore.com',
+  serviceArea: 'New Jersey and the five boroughs of New York City',
+  serviceAreaShort: 'Serving New Jersey and New York City',
 };
 
 export const NAV_ITEMS = [
@@ -26,13 +28,13 @@ export const NAV_ITEMS = [
     children: [
       { label: 'Aquatic Division', href: '/services/aquatic' },
       { label: 'Chemical Division', href: '/services/chemical' },
-      { label: 'Construction', href: '/services/construction' },
+      { label: 'Renovation', href: '/services/renovation' },
       { label: 'Sauna & Steam', href: '/services/sauna-steam' },
       { label: 'Pool Lifts', href: '/services/pool-lifts' },
     ],
   },
   { label: 'Commercial', href: '/commercial' },
-  { label: 'Resources', href: '/resources' },
+  { label: 'Preventative Maintenance', href: '/preventative-maintenance' },
   { label: 'About', href: '/about' },
   { label: 'Contact', href: '/contact' },
 ];
@@ -41,9 +43,11 @@ export const SERVICE_TYPES = [
   'General Inquiry',
   'Aquatic Service',
   'Chemical Supply',
-  'Construction / Renovation',
+  'Renovation',
   'Sauna & Steam',
   'Pool Lifts',
+  'Waterproofing',
+  'CPO / Preventative Maintenance',
   'Commercial / Institutional',
 ];
 
@@ -53,6 +57,8 @@ export const SERVICE_REQUEST_TYPES = [
   'Opening / Closing',
   'Chemical Service',
   'Pool Evaluation',
+  'CPO / Preventative Maintenance',
+  'Waterproofing',
   'Other',
 ];
 

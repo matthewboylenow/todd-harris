@@ -9,18 +9,18 @@ import { Phone } from 'lucide-react';
 import { IMAGES } from '@/lib/images';
 
 export const metadata: Metadata = {
-  title: 'Pool Chemical Supply & Delivery NJ | Chemical Division',
-  description: 'Pool chemical supply and tank truck delivery in NJ. Liquid chlorine, granular chlorines, bromine, pH products, ice melt. Commercial and residential. Call 732-287-4443.',
+  title: 'Commercial Pool Chemical Supply & Delivery NJ & NYC | Chemical Division',
+  description: 'Commercial pool chemical supply and tank truck delivery in NJ and NYC. Liquid chlorine, granular chlorines, bromine, pH products, ice melt. Call 732-287-4443.',
 };
 
 const supplies = [
-  { title: 'Liquid chlorine', description: 'Available by the carboy for residential customers or by tank truck for commercial facilities. Our liquid chlorine is the strongest grade allowed by law. No diluted product.' },
+  { title: 'Liquid chlorine', description: 'Available by the carboy or by tank truck for commercial facilities. Our liquid chlorine is the strongest grade allowed by law. No diluted product.' },
   { title: 'Granular chlorines', description: 'Calcium hypochlorite and dichlor products for shock treatments and regular dosing. Multiple strengths available depending on your needs.' },
   { title: 'Chlorine and bromine tablets', description: 'Standard 3-inch tablets, 1-inch tablets for feeders and floaters, and bromine tablets for spas and hot tubs.' },
   { title: 'Chlorine generators', description: 'Salt chlorine generators produce chlorine from dissolved salt in your pool water. We sell, install, and service salt systems.' },
-  { title: 'Water analyzers and controllers', description: 'Digital testing equipment and automated chemical controllers that monitor and adjust water chemistry in real time. Essential for commercial facilities, useful for homeowners who want hands-off maintenance.' },
+  { title: 'Water analyzers and controllers', description: 'Digital testing equipment and automated chemical controllers that monitor and adjust water chemistry in real time. Essential for commercial facilities.' },
   { title: 'pH products, clarifiers, and cleaners', description: 'pH increaser, pH decreaser, alkalinity products, calcium hardness adjusters, clarifiers, algaecides, stain removers, and tile cleaners. Everything you need to keep your water balanced and clear.' },
-  { title: 'Ice melting products', description: 'Rock salt, calcium chloride, magnesium chloride, and blended ice melt products. A seasonal offering that keeps our commercial and residential customers covered through winter.' },
+  { title: 'Ice melting products', description: 'Rock salt, calcium chloride, magnesium chloride, and blended ice melt products. A seasonal offering that keeps our commercial clients covered through winter.' },
 ];
 
 export default function ChemicalPage() {
@@ -40,10 +40,10 @@ export default function ChemicalPage() {
           <h2>Overview</h2>
           <div className="mt-6 space-y-4 text-gray-medium">
             <p>
-              The Chemical Division handles pool and spa chemical supply at every scale. Residential customers can pick up what they need, and commercial clients schedule recurring deliveries by carboy or tank truck. Either way, you&apos;re getting the right products at the right concentration, from people who understand water chemistry.
+              The Chemical Division handles pool and spa chemical supply at every scale. Commercial clients schedule recurring deliveries by carboy or tank truck. You&apos;re getting the right products at the right concentration, from people who understand water chemistry.
             </p>
             <p>
-              We don&apos;t sell watered-down product and we don&apos;t push chemicals you don&apos;t need. We test water and recommend exactly what your pool requires. That&apos;s how it works.
+              We don&apos;t sell watered-down product and we don&apos;t push chemicals you don&apos;t need. We test water and recommend exactly what your facility requires. That&apos;s how it works.
             </p>
           </div>
         </div>
@@ -67,7 +67,7 @@ export default function ChemicalPage() {
           <CopperLine className="mb-6" />
           <h2>Commercial delivery</h2>
           <p className="mt-4 text-gray-medium">
-            If you manage a commercial facility (hotel pool, apartment complex, municipal aquatic center, fitness club), we can set up scheduled chemical delivery on a recurring basis. Tank truck and carboy delivery available throughout the tri-state area.
+            If you manage a commercial facility (hotel pool, apartment complex, municipal aquatic center, fitness club, school), we can set up scheduled chemical delivery on a recurring basis. Tank truck and carboy delivery available throughout New Jersey and the five boroughs of New York City.
           </p>
           <p className="mt-4 text-gray-medium">
             Contact us to set up a delivery schedule that fits your facility&apos;s needs.

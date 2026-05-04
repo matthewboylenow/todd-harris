@@ -1,7 +1,7 @@
 import { Resend } from 'resend';
 
 const resend = new Resend(process.env.RESEND_API_KEY);
-const notificationEmail = process.env.NOTIFICATION_EMAIL || 'njpools@toddharris.com';
+const notificationEmail = process.env.NOTIFICATION_EMAIL || 'sales@toddharris.com';
 
 interface ContactData {
   name: string;

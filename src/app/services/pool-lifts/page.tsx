@@ -9,8 +9,8 @@ import { Phone } from 'lucide-react';
 import { IMAGES } from '@/lib/images';
 
 export const metadata: Metadata = {
-  title: 'ADA Pool Lifts & Spa Access NJ',
-  description: 'ADA-compliant pool and spa lifts for commercial and residential properties in NJ. Aqua Creek products. Installation and service. Call 732-287-4443.',
+  title: 'ADA Pool Lifts & Spa Access for Commercial Facilities NJ & NYC',
+  description: 'ADA-compliant pool and spa lifts for commercial facilities in NJ and NYC. Aqua Creek products. Installation and service. Call 732-287-4443.',
 };
 
 const offerings = [
@@ -26,7 +26,7 @@ export default function PoolLiftsPage() {
       <PageHero
         eyebrow="Services / Pool Lifts"
         title="Pool and spa access for everyone."
-        subtitle="ADA-compliant pool lifts and spa lifts for commercial facilities and residential properties. We sell, install, and service Aqua Creek products."
+        subtitle="ADA-compliant pool lifts and spa lifts for commercial facilities. We sell, install, and service Aqua Creek products."
         image={IMAGES.servicePoolLifts}
         imageAlt="Accessible pool with ADA-compliant lift"
       />
@@ -40,7 +40,7 @@ export default function PoolLiftsPage() {
               Pool access should be available to everyone. We carry and install a range of ADA-compliant pool and spa lifts from Aqua Creek Products, one of the leading manufacturers in the industry.
             </p>
             <p>
-              Whether you&apos;re a commercial facility meeting ADA requirements or a homeowner who needs accessible pool entry, we can help you find the right lift and get it installed properly.
+              Whether you&apos;re a hotel, gym, apartment complex, or municipal facility meeting ADA requirements, we can help you find the right lift and get it installed properly.
             </p>
           </div>
         </div>
@@ -67,7 +67,7 @@ export default function PoolLiftsPage() {
             Commercial pools and spas are required to provide accessible means of entry under the Americans with Disabilities Act. The specific requirements depend on the size and type of your facility. We can help you determine what you need and get it installed correctly.
           </p>
           <p className="mt-4 text-gray-medium">
-            If you manage a hotel, apartment complex, gym, municipal pool, or any commercial aquatic facility, ADA-compliant pool access isn&apos;t optional. Let us help you get it sorted.
+            If you manage a hotel, apartment complex, gym, municipal pool, school, or any commercial aquatic facility, ADA-compliant pool access isn&apos;t optional. Let us help you get it sorted.
           </p>
         </div>
       </SectionWrapper>

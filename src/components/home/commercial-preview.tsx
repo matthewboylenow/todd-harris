@@ -15,7 +15,10 @@ export function CommercialPreview() {
           <CopperLine className="mb-4" />
           <h2 className="text-white">Pool services at the commercial scale</h2>
           <p className="mt-4 text-concrete/80">
-            Todd Harris has been building and servicing commercial pools since 1975. Hotels, apartment complexes, gyms, municipal facilities, and community centers. Our fleet and crew handle institutional-scale work, from new construction to chemical delivery by tank truck.
+            We specialize in high-end in-ground pools and spas, including indoor, rooftop, penthouse, and steel pool installations and renovations for commercial facilities.
+          </p>
+          <p className="mt-4 text-concrete/80">
+            Todd Harris has been renovating and servicing commercial pools since 1975. Hotels, apartment complexes, gyms, municipal facilities, schools, universities, and community pools. Our fleet and crew handle institutional-scale work, from full renovations to chemical delivery by tank truck.
           </p>
           <p className="mt-4 text-concrete/80">
             If you manage a commercial aquatic facility, we&apos;d like to talk.
@@ -29,7 +32,7 @@ export function CommercialPreview() {
           <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
             <Image
               src={IMAGES.commercial}
-              alt="Commercial hotel pool facility"
+              alt="Commercial indoor pool facility"
               fill
               className="object-cover"
               sizes="(max-width: 768px) 100vw, 50vw"

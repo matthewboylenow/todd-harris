@@ -9,30 +9,36 @@ import { Phone } from 'lucide-react';
 import { IMAGES } from '@/lib/images';
 
 export const metadata: Metadata = {
-  title: 'Pool Service & Repair Edison NJ | Aquatic Division',
-  description: 'Pool equipment service, repair, leak detection, automation, openings and closings in Edison, NJ. Serving Central NJ since 1975. Call 732-287-4443.',
+  title: 'Commercial Pool Service & Repair NJ & NYC | Aquatic Division',
+  description: 'Commercial pool service, repair, leak detection, automation, waterproofing, and CPO services. Serving New Jersey and NYC since 1975. Call 732-287-4443.',
 };
 
 const services = [
-  { title: 'Equipment repair and installation', description: 'Filters, pumps, motors, heaters, salt systems, and chlorine generators. If a part needs replacing, we carry it or we\u2019ll get it. If the whole unit needs upgrading, we\u2019ll recommend what makes sense for your setup and your budget.' },
-  { title: 'Automation and control systems', description: 'Pool automation lets you manage filtration, heating, lighting, and chemical dosing from one controller (or your phone). We install, program, and service automation systems for both residential and commercial pools.' },
+  { title: 'Equipment repair and installation', description: 'Filters, pumps, motors, heaters, salt systems, and chlorine generators. If a part needs replacing, we carry it or we\u2019ll get it. If the whole unit needs upgrading, we\u2019ll recommend what makes sense for your facility and your budget.' },
+  { title: 'Automation and control systems', description: 'Pool automation lets you manage filtration, heating, lighting, and chemical dosing from one controller (or your phone). We install, program, and service automation systems for commercial pools and spas.' },
   { title: 'Leak detection and repair', description: 'If your water level keeps dropping and it\u2019s not evaporation, we\u2019ll find the leak. Our team uses pressure testing and other diagnostic methods to locate leaks in plumbing, fittings, shells, and equipment.' },
   { title: 'Chemical controllers and feeders', description: 'Automated chemical dosing keeps your water balanced without guesswork. We install and maintain controllers and feeder systems that monitor and adjust chlorine, pH, and ORP levels.' },
   { title: 'Anodes and cathodic protection', description: 'Metal components in your pool system corrode over time, especially in salt water environments. We install sacrificial anodes and cathodic protection systems to extend the life of your equipment.' },
   { title: 'Openings and closings', description: 'We handle seasonal openings in the spring and closings in the fall. Equipment is inspected, water is balanced, covers go on or come off, and your pool is set for the season.' },
-  { title: 'Safety and automatic covers', description: 'We install and service both manual safety covers and automatic pool covers. If you have kids or pets, a safety cover is one of the most important additions you can make.' },
-  { title: 'Pool consulting and evaluations', description: 'Buying a property with a pool? Not sure what condition your equipment is in? We\u2019ll come out and do an honest evaluation. We\u2019ll tell you what\u2019s working, what\u2019s not, and what you should plan for.' },
+  { title: 'Safety and automatic covers', description: 'We install and service both manual safety covers and automatic pool covers for commercial facilities.' },
+  { title: 'Waterproofing', description: 'Professional waterproofing for commercial pools, spas, saunas, and related structures to protect against leaks and structural deterioration.' },
+  { title: 'CPO servicing', description: 'Our certified pool operators provide weekly or monthly preventative maintenance for commercial pools and spas, ensuring water quality, equipment reliability, and regulatory compliance.' },
+  { title: 'Pool evaluations', description: 'Not sure what condition your pool is in? We\u2019ll come out and do an honest evaluation. We\u2019ll tell you what\u2019s working, what\u2019s not, and what you should plan for.' },
 ];
+
+{/* TODO: Waterproofing verbiage subject to refinement when Ben sends final description. */}
+{/* Potential future section: 'Deck Equipment' – ladders, handrails, lifeguard chairs. Awaiting final wording from Ben. */}
+{/* Future item: Alarm systems for saunas and steam rooms (required by DOH). Waiting for exact verbiage from Ben. */}
 
 export default function AquaticPage() {
   return (
     <>
       <PageHero
         eyebrow="Services / Aquatic Division"
-        title="Keeping your pool running right."
-        subtitle="Filters, pumps, heaters, automation, leak detection, covers, and more. If it&apos;s part of your pool system, our technicians work on it."
+        title="Keeping commercial pools running right."
+        subtitle="Filters, pumps, heaters, automation, leak detection, waterproofing, CPO servicing, and more. If it&apos;s part of your commercial pool system, our technicians work on it."
         image={IMAGES.serviceAquatic}
-        imageAlt="Pool equipment and filtration system"
+        imageAlt="Commercial indoor pool facility"
       />
 
       <SectionWrapper>
@@ -41,10 +47,10 @@ export default function AquaticPage() {
           <h2>Overview</h2>
           <div className="mt-6 space-y-4 text-gray-medium">
             <p>
-              The Aquatic Division is the backbone of Todd Harris Company. This is where the day-to-day work happens: the service calls, the equipment installs, the seasonal openings and closings that keep pools across Central New Jersey in working order year after year.
+              The Aquatic Division is the backbone of Todd Harris Company. This is where the day-to-day work happens: the service calls, the equipment installs, the seasonal openings and closings that keep commercial pools across New Jersey and New York City in working order year after year.
             </p>
             <p>
-              Our technicians handle everything from a routine filter cleaning to a full automation system upgrade. We work on residential pools, commercial facilities, and institutional aquatic centers. Whatever the size of the job, the approach is the same. Diagnose the problem, explain what needs to happen, get it done.
+              We specialize in high-end in-ground pools and spas, including indoor, rooftop, penthouse, and steel pool installations and renovations for commercial facilities. Whatever the size of the job, the approach is the same. Diagnose the problem, explain what needs to happen, get it done.
             </p>
           </div>
         </div>
@@ -68,7 +74,7 @@ export default function AquaticPage() {
           <CopperLine className="mb-6" />
           <h2>Who this is for</h2>
           <p className="mt-4 text-gray-medium">
-            Homeowners with residential pools, property managers overseeing commercial or community pools, hotel and gym operators, and anyone who needs reliable pool service in Central New Jersey. We service both in-ground and above-ground pools.
+            Property managers overseeing commercial and community pools, hotel and gym operators, schools, universities, rehabilitation facilities, and other institutional and commercial operators who need reliable pool service in New Jersey and the five boroughs of New York City.
           </p>
         </div>
       </SectionWrapper>
@@ -78,7 +84,7 @@ export default function AquaticPage() {
           <CopperLine className="mb-6" />
           <h2>How it works</h2>
           <p className="mt-4 text-gray-medium">
-            Call us at {COMPANY.phone.main} or submit a service request online. Let us know what&apos;s going on with your pool and we&apos;ll schedule a visit. Our tech will diagnose the issue on site, explain what needs to happen, and give you a clear price before any work starts. No surprises.
+            Call us at {COMPANY.phone.main} or submit a service request online. Let us know what&apos;s going on with your facility and we&apos;ll schedule a visit. Our tech will diagnose the issue on site, explain what needs to happen, and give you a clear price before any work starts. No surprises.
           </p>
         </div>
       </SectionWrapper>

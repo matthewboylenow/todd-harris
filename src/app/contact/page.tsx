@@ -10,7 +10,7 @@ import { IMAGES } from '@/lib/images';
 
 export const metadata: Metadata = {
   title: 'Contact Todd Harris Company | Edison, NJ | 732-287-4443',
-  description: 'Contact Todd Harris Company in Edison, NJ. Pool service, construction, chemicals, and supplies. Call 732-287-4443 or visit us at 2 Sutton Place.',
+  description: 'Contact Todd Harris Company in Edison, NJ. Commercial pool renovation, service, chemicals, and supplies. Call 732-287-4443 or visit us at 2 Sutton Place.',
 };
 
 export default function ContactPage() {
