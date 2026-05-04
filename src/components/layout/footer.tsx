@@ -25,13 +25,13 @@ export function Footer() {
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
           {/* Company Info */}
           <div>
-            <Link href="/" className="inline-block mb-4">
+            <Link href="/" className="inline-flex items-center rounded-md bg-white px-3 py-2 shadow-sm mb-4">
               <Image
                 src="/todd-harris-logo.png"
                 alt="Todd Harris Company"
                 width={140}
                 height={42}
-                className="h-10 w-auto"
+                className="h-9 w-auto"
               />
             </Link>
             <p className="text-sm leading-relaxed text-concrete/80 mb-4">
